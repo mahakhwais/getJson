@@ -14,6 +14,8 @@
 		6E1C6E4022476B070050B86A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6E1C6E3E22476B070050B86A /* LaunchScreen.storyboard */; };
 		6E1C6E4B22476B070050B86A /* GetJsonTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E1C6E4A22476B070050B86A /* GetJsonTests.swift */; };
 		6E1C6E5622476B070050B86A /* GetJsonUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E1C6E5522476B070050B86A /* GetJsonUITests.swift */; };
+		6E1C6E6422476BA40050B86A /* Dishes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E1C6E6322476BA40050B86A /* Dishes.swift */; };
+		6E1C6E662247989D0050B86A /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E1C6E652247989D0050B86A /* TableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +49,8 @@
 		6E1C6E5122476B070050B86A /* GetJsonUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GetJsonUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6E1C6E5522476B070050B86A /* GetJsonUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetJsonUITests.swift; sourceTree = "<group>"; };
 		6E1C6E5722476B070050B86A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6E1C6E6322476BA40050B86A /* Dishes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dishes.swift; sourceTree = "<group>"; };
+		6E1C6E652247989D0050B86A /* TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +81,7 @@
 		6E1C6E2922476B040050B86A = {
 			isa = PBXGroup;
 			children = (
+				6E1C6E6322476BA40050B86A /* Dishes.swift */,
 				6E1C6E3422476B040050B86A /* GetJson */,
 				6E1C6E4922476B070050B86A /* GetJsonTests */,
 				6E1C6E5422476B070050B86A /* GetJsonUITests */,
@@ -99,6 +104,7 @@
 			children = (
 				6E1C6E3522476B040050B86A /* AppDelegate.swift */,
 				6E1C6E3722476B040050B86A /* ViewController.swift */,
+				6E1C6E652247989D0050B86A /* TableViewCell.swift */,
 				6E1C6E3922476B040050B86A /* Main.storyboard */,
 				6E1C6E3C22476B070050B86A /* Assets.xcassets */,
 				6E1C6E3E22476B070050B86A /* LaunchScreen.storyboard */,
@@ -257,7 +263,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				6E1C6E3822476B040050B86A /* ViewController.swift in Sources */,
+				6E1C6E662247989D0050B86A /* TableViewCell.swift in Sources */,
 				6E1C6E3622476B040050B86A /* AppDelegate.swift in Sources */,
+				6E1C6E6422476BA40050B86A /* Dishes.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
